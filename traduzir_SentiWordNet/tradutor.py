@@ -23,8 +23,8 @@ for linha in texto:
 		
 		except Exception, e:
 			traducao = "error"
-			raise e	
 		print palavra[0],traducao
+		
 		arquivo_saida.write('['+traducao.encode('utf-8')+'] ')
 	arquivo_saida.write('\n')
 

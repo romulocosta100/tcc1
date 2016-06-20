@@ -19676,5 +19676,4 @@
 0 0 [iatismo] [passeios de barco] 
 0.125 0 [bareboating] 
 0 0 [pendulares] [comutação] 
-0 0 [deslocamento] [desenraizamento] 
-0 0 [transporte] [transporte] [transferral] 
+0 0 [deslocamento] [desenraizamento]
