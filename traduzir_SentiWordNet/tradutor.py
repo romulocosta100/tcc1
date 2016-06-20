@@ -1,7 +1,7 @@
 # https://pypi.python.org/pypi/goslate#downloads
 import requests
 import json
-arquivo = open('SentiWordNet/SentiWordNet_3.0.txt', 'r')
+arquivo = open('SentiWordNet/arquivo.txt', 'r')
 texto = arquivo.read()
 texto = texto.split('\n')
 
@@ -24,7 +24,7 @@ for linha in texto:
 		except Exception, e:
 			traducao = "error"
 		print palavra[0],traducao
-		
+
 		arquivo_saida.write('['+traducao.encode('utf-8')+'] ')
 	arquivo_saida.write('\n')
 
