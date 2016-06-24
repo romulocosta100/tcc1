@@ -41326,5 +41326,4 @@
 0 0 [sewing_room] 
 0 0 [sewing_stitch] [embroidery_stitch] 
 0 0 [sextante] 
-0 0 [sgraffito] 
-0 0 [tresmalho] [manilha] [dificultar] [l
+0 0 [sgraffito]
